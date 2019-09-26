@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	font-family: 'Roboto';
+	margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding:0;
+	
+}
+header{
+	background:none;
+	color: #f4f4f4;
+	padding-top: 25px;
+	min-height: 25px;	
+}
+header a{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header img{
+	float: top-left;
+	height: 125px;
+	width: 140px;
+	padding-bottom: 20px;
+	border: solid transparent;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header.current a{
+	color: #000;
+	font-weight: bold;
+}
+header img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+header a:hover{
+	color: #8000;
+	font-weight: bold;
+}
+.btn-full:hover{
+	color: #000;
+
+}
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s,color 0.2s;
+}
+.btn-full{
+	background-color: transparent;
+	color: #000;
+	margin-right: 15px;
+	border: 1px solid #353637;
+}
+#showcase{ 
+	min-height: 400px;
+	background: url('../images/10.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #000;
+
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px; 
+	text-orientation: use-glyph-orientation;
+	text-transform: capitalize;
+}
+#showcase p{
+	font-size: 20px;
+	text-transform: capitalize;
+	text-orientation: use-glyph-orientation;
+	text-decoration-color: #8000;
+}
+#enrol{
+	padding: 15px;
+	color: #000;
+	background: #32a8c2;
+}
+#enrol h2{
+	float: left;
+	text-transform: capitalize;
+	padding-left: 1px;
+	padding-right: 2px;
+}
+#enrol form{
+	float: right;
+	margin-top: 15px;
+}
+#enrol input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #000;
+	background-color: #32a8c2;
+	text-align: center;
+}
+@media(max-width: 768px){
+	header #brabnding,
+	header nav,
+	header nav li,
+	#enrol h1,
+	#enrol form{
+		text-align: center;
+		width: 100%;
+	}
+}
+header{
+	padding-bottom: 20px;
+}
+#showcase h1{
+margin-top: 40px;
+}
+#showcase form input[type="email"]{
+	width:100px;
+margin-bottom: 5px;
+}
+
+
+
